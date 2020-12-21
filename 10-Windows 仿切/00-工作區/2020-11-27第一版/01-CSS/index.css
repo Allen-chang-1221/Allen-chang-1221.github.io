@@ -1,0 +1,296 @@
+*{
+    box-sizing: border-box;
+}
+
+body, ul{
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體,Arial;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.all{
+    width: 100%;
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    font-size: 13px;
+    padding: 10px;
+    
+}
+    .navbar a{
+        text-decoration: none;
+        color: rgb(38, 38, 38);
+    }
+    .nav_center{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        margin: auto;
+    }
+        .nav_left{
+            width: 50%;
+            display: flex;
+            align-items: center;
+        }
+            .logo{
+                height: 100%;
+                display: flex;
+                align-items: center;
+            }
+                .logo_img{
+                    height: 23px;
+                }
+            .nav_left ul{
+                display: flex;
+                margin-left: 20px;
+            }
+                .nav_left ul li{
+                    margin-left: 15px;
+                }
+        .nav_right{
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+            .nav_right ul li{
+                display: inline-block;
+                margin-left: 32px;
+            }
+
+.main{
+    width: 100%;
+}
+    .container{
+        max-width: calc(1600px +10%);
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: auto;
+    }
+        .banner{
+            width: 100%;
+            height: 600px;
+            background-image: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4H4Kw?ver=43b1&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=0&s=1898&d=712&aim=true');
+            background-size: cover;
+        }
+            .ban_left{
+                width: 50%;
+                height: 100%;
+            }
+                .ban_text{
+                    padding: 145px;
+                }
+                    .ban_text span{
+                        font-weight: bold;
+                        color: white;
+                        background-color: black;
+                        display: inline-block;
+                        padding: 10px;
+                    }
+                    .ban_text a{
+                        text-decoration: none;
+                        color: white;
+                    }
+
+        .market{
+            width: 100%;
+            height: 130px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            padding: 48px;
+            margin: 20px 0;
+        }
+            .market ul{
+                display: flex;
+            }
+            .market ul li{
+                text-align: center;
+                margin: 0 15px;
+            }
+            .market ul li a{
+                color: #000;
+            }
+            
+        .product{
+            width: 100%;
+            height: 409px;
+            display: flex;
+            justify-content: space-between;
+        }
+            .laptop{
+                width: 25%;
+                margin-right: 10px;
+            }
+            .p365{
+                width: 25%;
+                margin-right: 10px;
+            }
+            .xgame{
+                width: 25%;
+                margin-right: 10px;
+            }
+            .edge{
+                width: 25%;
+            }
+            .product img{
+                width: 100%;
+            }
+            .product a{
+                color: black;
+            }
+            .product a p{
+                color: #005293;
+                font-weight: bold;
+            }
+            .product .bold{
+                font-size: 20px;
+                font-weight: bold;
+                margin: 40px 0 10px 0;
+            }
+
+        .banner2{
+            width: 100%;
+            height: 600px;
+            background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4CpMc?ver=e14d&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=0&s=1898&d=712&aim=true");
+            background-size: cover;
+            margin-top: 40px;
+        }
+            .ban2_left{
+                width: 50%;
+                height: 100%;
+            }
+                .ban2_text{
+                    padding: 145px;
+                }
+                .banner2 h2{
+                    font-size: 34px;
+                    font-weight: bold;
+                }
+                .ban2_text span{
+                    font-weight: bold;
+                    color: white;
+                    background-color: black;
+                    display: inline-block;
+                    padding: 10px;
+                }
+                .ban2_text a{
+                    text-decoration: none;
+                    color: white;
+                }
+
+        .business h2{
+            letter-spacing: 0.8px;
+            margin: 50px 0 12px 0;
+        }
+        
+        .product2{
+            width: 100%;
+            height: 409px;
+            display: flex;
+            justify-content: space-between;
+        }
+            .bsurface{
+                width: 25%;
+                margin-right: 10px;
+            }
+            .b365{
+                width: 25%;
+                margin-right: 10px;
+            }
+            .resilience{
+                width: 25%;
+                margin-right: 10px;
+            }
+            .bclass{
+                width: 25%;
+            }
+            .product2 img{
+                width: 100%;
+            }
+            .product2 a{
+                color: black;
+            }
+            .product2 a p{
+                color: #005293;
+                font-weight: bold;
+            }
+            .product2 .bold{
+                font-size: 20px;
+                font-weight: bold;
+                margin: 40px 0 10px 0;
+            }
+        .about{
+            padding: 28px 0px;
+            display: flex;
+            align-items: center;
+        }
+            .about_text{
+                color: rgba(0,0,0,0.6);
+            }
+            .about_fbicon{
+                color: rgb(66, 93, 170);
+                font-size: 32px;
+                padding: 8px;
+                box-sizing: border-box;
+            }
+            .about_fbicon a{
+                color: rgb(66, 93, 170);
+            }
+            .about_youtube{
+                color: rgb(237, 43, 47);
+                font-size: 32px;
+                padding: 8px;
+                box-sizing: border-box;
+            }
+            .about_youtube a{
+                color: rgb(237, 43, 47);
+            }
+.footer{
+    color: rgb(97, 97, 97);
+    background-color: rgb(242, 242, 242);
+    padding: 15px;
+    box-sizing: border-box;
+}
+    .footer_mid{
+        width: 90%;
+        background-color: rgb(242, 242, 242);
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .footer_mid ul{
+        font-size: 11px;
+    }
+    .footer_mid ul li{
+        margin: 15px 0;
+    }
+.copyright{
+color: rgb(97, 97, 97);
+background-color: rgb(242, 242, 242);
+font-size: 11px;
+line-height: 16px;
+padding: 15px;
+box-sizing: border-box;
+}
+    .copyright_mid{
+        width: 90%;
+        background-color: rgb(242, 242, 242);
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .copyright ul{
+        display: flex;
+    } 
+        .copyright ul li{
+            margin-left: 15px;
+        }
